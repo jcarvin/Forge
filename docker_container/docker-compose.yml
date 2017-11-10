@@ -1,0 +1,5 @@
+version: '2'
+services:
+  app:
+    image: jcarvin/pythyme
+    volumes: /vagrant/:/app/hosts/
